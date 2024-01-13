@@ -66,8 +66,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Open IIS as an Admin.
 
-- Register PHP from within IIS ->PHP Manager->Register new PHP version->browse for the php-cgi.exe inside C:\PHP
-  <img src="https://i.imgur.com/hbwZwnV.png)" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+- Register PHP from within IIS ->PHP Manager(double-click)->Register new PHP version->browse for the php-cgi.exe inside C:\PHP
+  <img src="https://i.imgur.com/jLDMcgL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
@@ -78,14 +78,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Extract and copy “upload” folder to C:\inetpub\wwwroot.
 Within C:\inetpub\wwwroot, Rename “upload” to “osTicket”.
 - Reload IIS (Open IIS, Stop and Start the server).
-- Go to sites -> Default -> osTicket.
+- Go to sites -> Default Web Site -> osTicket.
 On the right, click “Browse *:80”.
 
-<img src="https://i.imgur.com/Jqu9qyY.png)" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gQc3nCy.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
 And this window should appear, if so, you have done everything correct.
 
-<img src="https://i.imgur.com/bc3rOHn.png)" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8IZYiNN.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
 - Rename: ost-config.php
 
@@ -121,11 +121,11 @@ Click “Enable or disable an extension”
 
 - From the Installation Files, download and install HeidiSQL. Note is a word document with the link within it to download. 
   
-  -Open Heidi SQL
+  -Open Heidi SQL. Skip the first window
  
   -Create a new session, root/password you like, write it down -> Open
  
- <img src="https://i.imgur.com/RzLWDqv.png)" height="40%" width="40%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/A6Pd7xi.png)" height="46%" width="46%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/hfVtVp1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
  
 - Create a database called “osTicket”
   
