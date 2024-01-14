@@ -67,7 +67,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Open IIS as an Admin.
 
 - Register PHP from within IIS ->PHP Manager(double-click)->Register new PHP version->browse for the php-cgi.exe inside C:\PHP
-  <img src="https://i.imgur.com/jLDMcgL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/jLDMcgL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
